@@ -184,3 +184,12 @@ Processing by PostsController#index as HTML
 Completed 200 OK in 55ms (Views: 50.4ms | ActiveRecord: 0.2ms)
 
 
+Started GET "/posts" for 184.205.252.167 at 2020-01-30 23:20:26 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  Rendered posts/index.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 268ms (Views: 258.2ms | ActiveRecord: 0.4ms)
+
+
